@@ -11,32 +11,51 @@
   <body>
     <!-- Implement links to Kanbas and Course Navigation -->
     <div class="d-flex">
-      <div class="d-none d-md-block">
-        <ul class="wd-kanbas-navigation">
-          <!-- Copy Kanbas Navigation Here -->
-          <ul class="wd-kanbas-navigation">
-            <li id="img-nav"><a href="http://northeastern.edu"><img href="../../images/logo.jpeg"></a></li>
-            <li><a href="/Kanbas/Account/Profile/screen.html">
-               <i style="color: white;" class="fa-regular fa-user"></i>Account</a></li>
-            <li class="wd-active">
-              <a href="/Kanbas/Dashboard/screen.html">
-                <i class="fa fa-tachometer"></i> Dashboard</a>
-            </li>
-            <li><a href="/Kanbas/Courses/Home/screen.html">
-               <i class="fa-solid fa-book"></i>Courses</a> </li>
-            <li><a href="#"><i class="fa fa-calendar"></i> Calendar</a></li>
-            <li><a href="#"><i class="fa-regular fa-envelope" style="font-size: 2.5em"></i>Inbox</a></li>
-            <li><a href="#"><i class="fa-regular fa-clock"></i>History</a></li>
-            <li><a href="#"><i class="fa-solid fa-tv"></i></i>Studio</a></li>
-            <li><a href="#"><i class="fa-solid fa-arrow-right"></i>Commons</a></li>
-            <li><a href="#"><i class="fa-regular fa-circle-question" style="font-size: 2.7em"></i>Help</a></li>
-          </ul>
-        </ul>
+      <div style="background-color: black;" >
+        <div style="background-color: black;">
+            <div class="flex-container d-none d-md-block">
+                <ul class="wd-kanbas-navigation full-height-ul">
+                  <li id="img-nav"><a href="http://northeastern.edu"><img src="../../../images/logo.jpeg" class="wd-zindex-bring-to-front"></a></li>
+                  <li><a href="/Kanbas/Account/Profile/screen.html">
+                     <i style="color: white;" class="fa-regular fa-user"></i>Account</a></li>
+                  <li>
+                    <a href="/Kanbas/Dashboard/screen.html">
+                      <i class="fa fa-tachometer"></i> Dashboard</a>
+                  </li>
+                  <li class="wd-active"><a href="/Kanbas/Courses/Home/screen.html">
+                     <i class="fa-solid fa-book"></i>Courses</a> </li>
+                  <li><a href="#"><i class="fa fa-calendar"></i> Calendar</a></li>
+                  <li><a href="#"><i class="fa-regular fa-envelope" style="font-size: 2.5em"></i>Inbox</a></li>
+                  <li><a href="#"><i class="fa-regular fa-clock"></i>History</a></li>
+                  <li><a href="#"><i class="fa-solid fa-tv"></i></i>Studio</a></li>
+                  <li><a href="#"><i class="fa-solid fa-arrow-right"></i>Commons</a></li>
+                  <li><a href="#"><i class="fa-regular fa-circle-question" style="font-size: 2.7em"></i>Help</a></li>
+                </ul>
+               </div>
+            </div>
       </div>
+      <div class="header wd-flex-grow-1" >
+        <div class="d-none d-sm-block d-md-none" style="background-color: black;">
+            <div style="display: flex;">
+            <a href="../../Navigation/index.html"><i class="fa-solid fa-bars" style="color: white; font-size: 1.5em; padding-left: 10px; padding-top: 3px;"></i></a>
+            <a style="color: white; padding-left: 40%;">CS4450 Modules</a>
+            </div>
+        </div>
+        <div class="d-none d-md-block">
+        <div style="display: flex;">
+        <i class="fa-solid fa-bars" style="color: red; font-size: 1.5em; padding-left: 10px; padding-top: 3px;"></i>
+        <h4 style="padding-left: 20px; color: red;">CS4450 12314.132131</h4>
+        <h4 style="padding-left: 10px; padding-right: 10px; color: lightgray;"> > </h4>
+        <h4>Modules</h4>
+        <button style="float: right; border: 1px solid lightgray; padding: 5px; border-radius: 8%; background-color: lightgray; position: absolute; top: 10px; right: 10px;">Student View</button>
+    </div>
+
+    </div>
+        <hr>
+        <div class="d-flex">
       <div class="d-none d-md-block">
         <ul class="wd-navigation">
           <!-- Copy Course Navigation Here -->
-          <ul  class="wd-navigation">
             <li class="wd-active">
               <a href="/Kanbas/Courses/Home/screen.html">
                 Home</a></li>
@@ -74,11 +93,9 @@
                 Syllabus</a></li>
             <li><a href="/Kanbas/Courses/Settings/screen.html">
                 Settings</a></li>
-        
-          </ul>
         </ul>
       </div>
-      <div class="flex-fill">
+      <div class="flex-fill d-block">
         <ul class="list-group wd-modules">
           <!-- Copy Course Home here -->
           <div class="wd-flex-col-container">
@@ -211,7 +228,10 @@
               <button class="catalog-btn btn btn-outline-secondary"><i class="fa-solid fa-chart-simple"></i>New Analytics</button>
               <button class="catalog-btn btn btn-outline-secondary"><i class="fa-regular fa-bell"></i>View Course Notifications</button>
               </div>
-          <h4>Coming Up</h4>
+              <h4 style="padding-top: 5px;">To Do</h4>
+              <hr>
+                <a style="color: red;"> <i class="fa-solid fa-circle-info" style="color: red;"></i>Grade A1 - ENV + HTML</a>
+          <h4 style="padding-top: 5px;">Coming Up</h4>
           <hr>
           <a id = "calendar" href=""><i class="fa-regular fa-calendar" style="color: gray;"></i>></i>View Calendar</a>
           <ul>
@@ -221,6 +241,8 @@
           </ul>
       </div>
     </div>
+    </div>
+</div>
     </div>
   </body>
 </html>
