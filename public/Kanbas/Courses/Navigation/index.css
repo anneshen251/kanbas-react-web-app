@@ -24,19 +24,3 @@
     text-decoration: none;
   }
   
-  .wd-navigation-2 {
-    background-color: white;
-    list-style: none;
-    padding: 0px;
-  }
-  .wd-navigation-2 li {
-    padding-left: 10px;
-    margin-bottom: 5px;
-    margin-top: 5px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-  }
-  .wd-navigation-2 a {
-    color: red;
-    text-decoration: none;
-  }
