@@ -1,0 +1,18 @@
+.breadcrumb {
+    color: red;
+    font-size: medium;
+  }
+
+p{
+    color: gray;
+    padding-left: 20px;
+}
+
+.md {
+    padding-left: 5px;
+    font-size: large;
+}
+
+#student-view {
+    float: right; border: 1px solid lightgray; padding: 5px; border-radius: 8%; background-color: lightgray; position: absolute; top: 10px; right: 10px;
+}

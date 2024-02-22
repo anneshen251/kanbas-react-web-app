@@ -1,0 +1,28 @@
+.top {
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+.btnss {
+    border: 1px solid lightgray; padding: 5px; border-radius: 8%;
+    background-color: lightgray;
+    padding-right: 5px;
+}
+
+.red-btn {
+    border: 1px solid lightgray; padding: 5px; border-radius: 8%;
+    background-color: red;
+    color: white;
+    padding-right: 5px;
+}
+
+#btns {
+    padding: 10px; border-radius: 8%;
+    border: white;
+
+}
+
+.blackLink {
+    text-decoration-color: black;
+    color: black;
+}

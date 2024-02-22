@@ -1,0 +1,97 @@
+.wd-kanbas-navigation {
+  background-color: black;
+  list-style: none;
+  padding: 0px;
+  margin: 0px;
+  width: 80px;
+}
+
+.wd-kanbas-navigation-2 {
+  background-color: white;
+  list-style: none;
+  padding: 0px;
+  margin: 0px;
+  width: 80px;
+}
+
+.wd-kanbas-navigation-2 li {
+  padding: 10px;
+  margin-bottom: 10px;
+  font-size: 0.8em;
+  text-align: left;
+  align-items: left;
+}
+.wd-kanbas-navigation-2 li.wd-active {
+  background-color: white;
+}
+.wd-kanbas-navigation-2 li.wd-active a {
+  color: red;
+}
+.wd-kanbas-navigation-2 a {
+  color: red;
+  text-decoration: none;
+  position: relative;
+  align-self: center;
+}
+.wd-kanbas-navigation-2 i {
+  color: red;
+  font-size: 2em;
+  margin-bottom: 5px;
+  align-self: center;
+  position: relative;
+  padding-right: 10px;
+}
+
+.wd-kanbas-navigation li {
+  padding: 10px;
+  margin-bottom: 10px;
+  font-size: 0.8em;
+  text-align: center;
+  align-items: center;
+}
+.wd-kanbas-navigation li.wd-active {
+  background-color: white;
+}
+.wd-kanbas-navigation li.wd-active a {
+  color: red;
+}
+.wd-kanbas-navigation a {
+  color: white;
+  text-decoration: none;
+  position: relative;
+  align-self: center;
+}
+.wd-kanbas-navigation i {
+  color: red;
+  font-size: 2em;
+  margin-bottom: 5px;
+  align-self: center;
+  position: relative;
+}
+
+#img-nav {
+  padding: 0px;
+  display: contents;
+}
+
+img {
+  width: 80px;
+  height: 80px;
+  margin-bottom: 5px;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.full-height-ul {
+  flex-grow: 1;
+}
+
+#chevron {
+float: right;
+color: darkgray;
+font-size: 2em;
+}
