@@ -12,7 +12,7 @@ function Assignments() {
         <div className="top">
         <input type="text" id="search" placeholder="Search for Assignments"/>
         <button id="btns" className="btn btn-outline-secondary d-none d-lg-block"><FaEllipsisV></FaEllipsisV></button>
-        <button className="red-btn d-none d-lg-block" type="button"><FaPlus></FaPlus>Assignment</button> 
+        <button className="red-btn git" type="button"><FaPlus></FaPlus>Assignment</button> 
         <button className="btnss d-none d-lg-block" type="button"><FaPlus></FaPlus>Group</button>
         </div>
         <hr></hr>
