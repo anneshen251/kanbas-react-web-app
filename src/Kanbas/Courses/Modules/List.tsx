@@ -19,11 +19,13 @@ function ModuleList() {
     <ul className="list-group">
       <li className="list-group-item">
         <button
-          onClick={() => dispatch(addModule({ ...module, course: courseId }))}>
+          onClick={() => dispatch(addModule({ ...module, course: courseId }))}
+          className="red-btn btn-primary">
           Add
         </button>
         <button
-          onClick={() => dispatch(updateModule(module))}>
+          onClick={() => dispatch(updateModule(module))}
+          className="red-btn btn-primary">
           Update
         </button>
         <input
@@ -42,11 +44,13 @@ function ModuleList() {
         .map((module, index) => (
           <li key={index} className="list-group-item">
             <button
-              onClick={() => dispatch(setModule(module))}>
+              onClick={() => dispatch(setModule(module))}
+              className="red-btn btn-primary">
               Edit
             </button>
             <button
-              onClick={() => dispatch(deleteModule(module._id))}>
+              onClick={() => dispatch(deleteModule(module._id))}
+              className="red-btn btn-primary">
               Delete
             </button>
             <h3>{module.name}</h3>
